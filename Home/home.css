@@ -1,7 +1,8 @@
 body{
     background-color: rgb(48, 59, 59);
 }
-/* HERE'S THE NAVIGATION BAR CODE*/
+/* HERE'S THE NAVIGATION-BAR CODE*/
+/* if you find it hard to fix it into your webpage try the one below, not that it will fit perfectly but...whatever mahn! */
 /* ***************************** */
 .nav{
     border: transparent;
@@ -129,3 +130,69 @@ h1:hover::after{
     transform: rotateY(-180deg);
     transition: ease-in-out 2s;
 }
+
+
+
+
+
+/* 
+.nav{
+    border: transparent;
+    margin-top: -90px;
+    float: right;
+    justify-content: right;
+    background-color: rgba(88, 82, 82, 0.45);
+    border-radius: 50px;
+    padding: 1px;
+    height: 60px;
+    width: max-content;
+}
+.nav:hover{
+    border: thick;
+}
+ul { 
+    list-style: none; 
+   display: flex;
+    width: 600px;
+    text-align: center;
+    padding: 0 0 0 20px;
+}
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin: 1rem;
+    color: honeydew;
+    display: table-cell;
+    padding: 10px 15px;
+    position: relative;
+}
+a:hover{
+    color: black;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+a:after {    
+    background: no-repeat scroll 0 0 transparent;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: aliceblue;
+    transition: width 0.4s ease 0.1s, left 0.4s ease 0.1s;
+    width: 0;
+}
+  
+a:hover:after { 
+    width: 100%; 
+    transition: 0.5s;
+    left: 0%; 
+    box-shadow: 9px 9px 8px ;
+  }
+  @media screen and (max-height:300px) {
+      ul{
+          margin-top: 10px;
+      }
+  } */
